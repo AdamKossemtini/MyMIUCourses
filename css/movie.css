@@ -15,7 +15,7 @@ body {
     background: url(../images/bannerbg.png);
 }
 
-#movie-name {
+#name {
     font-size: 24pt;
     font-weight: 700;
     font-family: Tahoma, Verdana;
@@ -53,7 +53,14 @@ body {
 #certificates {
     opacity: .5;
     float: right;
-    margin-top: -50px;
+    margin-top: -64px;
+    
+}
+#certificates2 {
+    opacity: .5;
+    float: right;
+    margin-top: -30px;
+    
 }
 
 #left-container {
