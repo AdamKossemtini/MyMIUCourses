@@ -6,13 +6,13 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background: url(../pictures/background.png);
+    background: url(../images/background.png);
 }
 
 #banner {
     text-align: center;
     height: 50px;
-    background: url(../pictures/bannerbg.png);
+    background: url(../images/bannerbg.png);
 }
 
 #movie-name {
@@ -67,13 +67,14 @@ body {
     font-size: 48pt;
     display: flex;
     align-items: center;
-    background: url(../pictures/rbg.png);
+    background: url(../images/rbg.png);
 }
 
 #left-container .top,
 #left-container .top img {
     height: 83px;
     border-top-left-radius: 20px;
+    background-color:  rgb(54,82,39);
 }
 
 #left-container .review {
