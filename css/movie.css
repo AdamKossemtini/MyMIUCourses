@@ -9,18 +9,10 @@ body {
     background: url(../images/background.png);
 }
 
-#banner {
-    text-align: center;
-    height: 50px;
-    background: url(../images/bannerbg.png);
-}
-
-#name {
-    font-size: 24pt;
-    font-weight: 700;
-    font-family: Tahoma, Verdana;
-    text-align: center;
-    text-shadow: #999999 3px 3px;
+.main-container {
+    box-shadow: 0 0 0 4px grey;
+    border-radius: 20px;
+    width: 800px;
 }
 
 .container {
@@ -29,13 +21,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-.main-container {
-    box-shadow: 0 0 0 4px grey;
-    border-radius: 20px;
-    width: 800px;
-}
-
 .main-content {
     width: 100%;
     display: flex;
@@ -50,6 +35,19 @@ body {
     border-bottom-right-radius: 20px;
 }
 
+#banner {
+    text-align: center;
+    height: 50px;
+    background: url(../images/bannerbg.png);
+}
+
+#name {
+    font-size: 24pt;
+    font-weight: 700;
+    font-family: Tahoma, Verdana;
+    text-align: center;
+    text-shadow: #999999 3px 3px;
+}
 #certificates {
     opacity: .5;
     float: right;
@@ -62,13 +60,24 @@ body {
     margin-top: -30px;
     
 }
+dd {
+    margin-bottom: 10pt;
+}
 
-#left-container {
+dt {
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+#left{
     width: 550px;
     height: 1000px;
 }
 
-#left-container .top {
+#left .top {
     color: red;
     font-weight: 700;
     font-size: 48pt;
@@ -77,14 +86,14 @@ body {
     background: url(../images/rbg.png);
 }
 
-#left-container .top,
-#left-container .top img {
+#left .top,
+#left .top img {
     height: 83px;
     border-top-left-radius: 20px;
     background-color:  rgb(54,82,39);
 }
 
-#left-container .review {
+#left .review {
     width: 47%;
 }
 
@@ -116,11 +125,11 @@ body {
     margin-right: 5px;
 }
 
-.publication {
+.pub{
     font-style: italic;
 }
 
-#left-container .bottom {
+#left .bottom {
     padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -130,32 +139,20 @@ body {
     align-content: space-evenly;
 }
 
-#right-container {
+#right {
     width: 250px;
     background: #A2B964;
 }
 
-#right-container,
-#right-container .top,
-#right-container .top img {
+#right,
+#right .top,
+#right .top img {
     border-top-right-radius: 20px;
 }
 
-#right-container .bottom {
+#right .bottom {
     padding: 0 10pt 10pt 10pt;
     font-size: 8pt;
     font-family: Arial;
 }
 
-dd {
-    margin-bottom: 10pt;
-}
-
-dt {
-    font-weight: 700;
-}
-
-ul {
-    list-style: none;
-    padding-left: 0;
-}
